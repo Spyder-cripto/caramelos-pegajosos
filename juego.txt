@@ -754,7 +754,7 @@ All Violeta on TV
 LEVELS
 =======
 
-message Nivel 1 de 6 · Primer bocado
+message Nivel 1 de 9 · Primer bocado
 
 ######
 #p#..#
@@ -763,7 +763,7 @@ message Nivel 1 de 6 · Primer bocado
 #x...#
 ##efg#
 
-message Nivel 2 de 6 · Golosina
+message Nivel 2 de 9 · Golosina
 
 ######
 #x..p#
@@ -772,7 +772,7 @@ message Nivel 2 de 6 · Golosina
 #y.b.#
 ##efg#
 
-message Nivel 3 de 6 · Pegajoso
+message Nivel 3 de 9 · Pegajoso
 
 #######
 #....p#
@@ -782,7 +782,7 @@ message Nivel 3 de 6 · Pegajoso
 #...#x#
 ###efg#
 
-message Nivel 4 de 6 · Chicle traicionero
+message Nivel 4 de 9 · Chicle traicionero
 
 ########
 #2...#.#
@@ -792,7 +792,17 @@ message Nivel 4 de 6 · Chicle traicionero
 #zn.x.##
 ####efg#
 
-message Nivel 5 de 6 · Puente de chicle
+message Nivel 5 de 9 · Chicle en la esquina
+
+#######
+##...x#
+#ya..n#
+#...p.#
+#.b.1.#
+#.##..#
+###efg#
+
+message Nivel 6 de 9 · Puente de chicle
 
 #######
 ##.#..#
@@ -802,7 +812,7 @@ message Nivel 5 de 6 · Puente de chicle
 #p#...#
 ###efg#
 
-message Nivel 6 de 6 · Empacho
+message Nivel 7 de 9 · Empacho
 
 #######
 ##x.#p#
@@ -811,3 +821,23 @@ message Nivel 6 de 6 · Empacho
 #.a.y.#
 ##....#
 ###efg#
+
+message Nivel 8 de 9 · Ración doble
+
+########
+##...###
+#..aap.#
+##....n#
+#.2yb#.#
+#..xx..#
+####efg#
+
+message Nivel 9 de 9 · Atasco de golosinas
+
+########
+#.##..x#
+##..a..#
+#.a.#c.#
+#yxbp..#
+#....z.#
+####efg#

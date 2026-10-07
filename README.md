@@ -18,8 +18,11 @@ autónomo en **PuzzleScript Next**, con el estilo «Caramelo».
 2. Golosina: mínimo 29 pasos
 3. Pegajoso: mínimo 62 pasos
 4. Chicle traicionero: mínimo 56 pasos
-5. Puente de chicle: mínimo 76 pasos
-6. Empacho: mínimo 78 pasos
+5. Chicle en la esquina: mínimo 60 pasos
+6. Puente de chicle: mínimo 76 pasos
+7. Empacho: mínimo 78 pasos
+8. Ración doble: mínimo 80 pasos
+9. Atasco de golosinas: mínimo 89 pasos
 
 ## Créditos
 - Niveles, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026

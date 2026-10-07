@@ -10,6 +10,7 @@ autónomo en **PuzzleScript Next**, con el estilo «Caramelo».
 - **Objetivo:** cada caramelo a una zona de su color (se ribetea de oro al llegar).
 - **Se pegan:** los caramelos que se tocan quedan unidos para siempre (aunque sean de colores distintos) y se mueven juntos; si uno choca, no se mueve ninguno.
 - **El chicle** (novedad de esta versión): se pega a todo, igual que un caramelo, pero no tiene zona. Puede ser una trampa… o la herramienta que une dos caramelos.
+- **Charcos de colorante** (novedad de esta versión): el caramelo que pisa uno toma su color, y con él cambia la zona a la que debe ir. El chicle no se tiñe.
 - **Flechas:** mover · **Z:** deshacer · **R:** reiniciar. En el móvil, desliza el dedo.
 - **Ayudas** (arriba a la derecha): ojo, reiniciar, pista (el mejor movimiento desde donde estés), deshacer y solución animada.
 
@@ -23,6 +24,12 @@ autónomo en **PuzzleScript Next**, con el estilo «Caramelo».
 7. Empacho: mínimo 78 pasos
 8. Ración doble: mínimo 80 pasos
 9. Atasco de golosinas: mínimo 89 pasos
+10. Primer chapuzón: mínimo 20 pasos
+11. Mitad y mitad: mínimo 31 pasos
+12. Dos charcos: mínimo 36 pasos
+13. Sirope de arándanos: mínimo 67 pasos
+14. Chicle sin teñir: mínimo 82 pasos
+15. Arcoíris: mínimo 64 pasos
 
 ## Créditos
 - Niveles, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026

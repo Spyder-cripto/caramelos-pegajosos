@@ -619,6 +619,82 @@ Chicle
 .....000000.....
 ................
 
+TintR
+#e0607a #ff9db0 #ffffff
+................
+................
+.............00.
+.......000...00.
+.......010......
+..0000011100....
+..011111111100..
+..0122221111110.
+..0111111111110.
+..011111111110..
+...0111111110...
+...0111111110...
+....01111010....
+..0011100.010...
+..0.000....0....
+................
+
+TintG
+#3fae73 #8fe0b2 #ffffff
+................
+................
+.............00.
+.......000...00.
+.......010......
+..0000011100....
+..011111111100..
+..0122221111110.
+..0111111111110.
+..011111111110..
+...0111111110...
+...0111111110...
+....01111010....
+..0011100.010...
+..0.000....0....
+................
+
+TintB
+#4f86e6 #9fc2ff #ffffff
+................
+................
+.............00.
+.......000...00.
+.......010......
+..0000011100....
+..011111111100..
+..0122221111110.
+..0111111111110.
+..011111111110..
+...0111111110...
+...0111111110...
+....01111010....
+..0011100.010...
+..0.000....0....
+................
+
+TintV
+#8a62d6 #c8acf5 #ffffff
+................
+................
+.............00.
+.......000...00.
+.......010......
+..0000011100....
+..011111111100..
+..0122221111110.
+..0111111111110.
+..011111111110..
+...0111111110...
+...0111111110...
+....01111010....
+..0011100.010...
+..0.000....0....
+................
+
 =======
 LEGEND
 =======
@@ -646,6 +722,10 @@ w = TV
 e = H_Marker and D0 and TapaCifra
 f = T_Marker and D0
 g = U_Marker and D0
+r = TintR
+s = TintG
+t = TintB
+u = TintV
 Rojo = CR or RD
 Verde = CG or GD
 Azul = CB or BD
@@ -664,7 +744,7 @@ COLLISIONLAYERS
 ================
 
 Background
-TR, TG, TB, TV
+TR, TG, TB, TV, TintR, TintG, TintB, TintV
 U_Marker, T_Marker, H_Marker
 Player, Wall, CR, RD, CG, GD, CB, BD, CV, VD, Chicle, D0, D1, D2, D3, D4, D5, D6, D7, D8, D9
 PegaL
@@ -687,6 +767,20 @@ RULES
 [ moving Candy | stationary Candy ] -> [ moving Candy | moving Candy ]
 [ > Candy | Obstaculo ] [ > Player | > Candy ] -> [ Candy | Obstaculo ] [ > Player | Candy ]
 [ > Player | stationary Candy ] [ moving Candy ] -> [ > Player | Candy ] [ Candy ]
+
+( Charcos de colorante: el caramelo que cae en uno toma su color; el chicle no se tiñe )
+late [ Verde TintR ] -> [ CR TintR ]
+late [ Azul TintR ] -> [ CR TintR ]
+late [ Violeta TintR ] -> [ CR TintR ]
+late [ Rojo TintG ] -> [ CG TintG ]
+late [ Azul TintG ] -> [ CG TintG ]
+late [ Violeta TintG ] -> [ CG TintG ]
+late [ Rojo TintB ] -> [ CB TintB ]
+late [ Verde TintB ] -> [ CB TintB ]
+late [ Violeta TintB ] -> [ CB TintB ]
+late [ Rojo TintV ] -> [ CV TintV ]
+late [ Verde TintV ] -> [ CV TintV ]
+late [ Azul TintV ] -> [ CV TintV ]
 
 ( Caramelo en su zona: ribete dorado )
 late [ CR TR ] -> [ RD TR ]
@@ -754,7 +848,7 @@ All Violeta on TV
 LEVELS
 =======
 
-message Nivel 1 de 9 · Primer bocado
+message Nivel 1 de 15 · Primer bocado
 
 ######
 #p#..#
@@ -763,7 +857,7 @@ message Nivel 1 de 9 · Primer bocado
 #x...#
 ##efg#
 
-message Nivel 2 de 9 · Golosina
+message Nivel 2 de 15 · Golosina
 
 ######
 #x..p#
@@ -772,7 +866,7 @@ message Nivel 2 de 9 · Golosina
 #y.b.#
 ##efg#
 
-message Nivel 3 de 9 · Pegajoso
+message Nivel 3 de 15 · Pegajoso
 
 #######
 #....p#
@@ -782,7 +876,7 @@ message Nivel 3 de 9 · Pegajoso
 #...#x#
 ###efg#
 
-message Nivel 4 de 9 · Chicle traicionero
+message Nivel 4 de 15 · Chicle traicionero
 
 ########
 #2...#.#
@@ -792,7 +886,7 @@ message Nivel 4 de 9 · Chicle traicionero
 #zn.x.##
 ####efg#
 
-message Nivel 5 de 9 · Chicle en la esquina
+message Nivel 5 de 15 · Chicle en la esquina
 
 #######
 ##...x#
@@ -802,7 +896,7 @@ message Nivel 5 de 9 · Chicle en la esquina
 #.##..#
 ###efg#
 
-message Nivel 6 de 9 · Puente de chicle
+message Nivel 6 de 15 · Puente de chicle
 
 #######
 ##.#..#
@@ -812,7 +906,7 @@ message Nivel 6 de 9 · Puente de chicle
 #p#...#
 ###efg#
 
-message Nivel 7 de 9 · Empacho
+message Nivel 7 de 15 · Empacho
 
 #######
 ##x.#p#
@@ -822,7 +916,7 @@ message Nivel 7 de 9 · Empacho
 ##....#
 ###efg#
 
-message Nivel 8 de 9 · Ración doble
+message Nivel 8 de 15 · Ración doble
 
 ########
 ##...###
@@ -832,7 +926,7 @@ message Nivel 8 de 9 · Ración doble
 #..xx..#
 ####efg#
 
-message Nivel 9 de 9 · Atasco de golosinas
+message Nivel 9 de 15 · Atasco de golosinas
 
 ########
 #.##..x#
@@ -841,3 +935,58 @@ message Nivel 9 de 9 · Atasco de golosinas
 #yxbp..#
 #....z.#
 ####efg#
+
+message Nivel 10 de 15 · Primer chapuzón
+
+######
+#zp..#
+#.ta.#
+#.#..#
+##efg#
+
+message Nivel 11 de 15 · Mitad y mitad
+
+######
+#...x#
+##taz#
+#pa.##
+#....#
+##efg#
+
+message Nivel 12 de 15 · Dos charcos
+
+########
+#.#.csy#
+#...ta.#
+##.#a.x#
+#..n.zp#
+####efg#
+
+message Nivel 13 de 15 · Sirope de arándanos
+
+#######
+#..#px#
+#...ta#
+#.#.z.#
+#.a...#
+#..#..#
+###efg#
+
+message Nivel 14 de 15 · Chicle sin teñir
+
+########
+#.t.a.z#
+#.#....#
+#.#a##.#
+#xnp...#
+####efg#
+
+message Nivel 15 de 15 · Arcoíris
+
+#######
+#.t.pz#
+#.rb.##
+##.xa.#
+#..c..#
+#.y...#
+###efg#

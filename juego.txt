@@ -848,7 +848,7 @@ All Violeta on TV
 LEVELS
 =======
 
-message Nivel 1 de 15 · Primer bocado
+message Nivel 1 de 22 · Primer bocado
 
 ######
 #p#..#
@@ -857,7 +857,7 @@ message Nivel 1 de 15 · Primer bocado
 #x...#
 ##efg#
 
-message Nivel 2 de 15 · Golosina
+message Nivel 2 de 22 · Golosina
 
 ######
 #x..p#
@@ -866,7 +866,7 @@ message Nivel 2 de 15 · Golosina
 #y.b.#
 ##efg#
 
-message Nivel 3 de 15 · Pegajoso
+message Nivel 3 de 22 · Pegajoso
 
 #######
 #....p#
@@ -876,7 +876,7 @@ message Nivel 3 de 15 · Pegajoso
 #...#x#
 ###efg#
 
-message Nivel 4 de 15 · Chicle traicionero
+message Nivel 4 de 22 · Chicle traicionero
 
 ########
 #2...#.#
@@ -886,7 +886,7 @@ message Nivel 4 de 15 · Chicle traicionero
 #zn.x.##
 ####efg#
 
-message Nivel 5 de 15 · Chicle en la esquina
+message Nivel 5 de 22 · Chicle en la esquina
 
 #######
 ##...x#
@@ -896,7 +896,7 @@ message Nivel 5 de 15 · Chicle en la esquina
 #.##..#
 ###efg#
 
-message Nivel 6 de 15 · Puente de chicle
+message Nivel 6 de 22 · Puente de chicle
 
 #######
 ##.#..#
@@ -906,7 +906,7 @@ message Nivel 6 de 15 · Puente de chicle
 #p#...#
 ###efg#
 
-message Nivel 7 de 15 · Empacho
+message Nivel 7 de 22 · Empacho
 
 #######
 ##x.#p#
@@ -916,7 +916,7 @@ message Nivel 7 de 15 · Empacho
 ##....#
 ###efg#
 
-message Nivel 8 de 15 · Ración doble
+message Nivel 8 de 22 · Ración doble
 
 ########
 ##...###
@@ -926,7 +926,7 @@ message Nivel 8 de 15 · Ración doble
 #..xx..#
 ####efg#
 
-message Nivel 9 de 15 · Atasco de golosinas
+message Nivel 9 de 22 · Atasco de golosinas
 
 ########
 #.##..x#
@@ -936,7 +936,7 @@ message Nivel 9 de 15 · Atasco de golosinas
 #....z.#
 ####efg#
 
-message Nivel 10 de 15 · Primer chapuzón
+message Nivel 10 de 22 · Primer chapuzón
 
 ######
 #zp..#
@@ -944,7 +944,27 @@ message Nivel 10 de 15 · Primer chapuzón
 #.#..#
 ##efg#
 
-message Nivel 11 de 15 · Mitad y mitad
+message Nivel 11 de 22 · No pises el charco
+
+#######
+#p.#..#
+#.b...#
+#..r..#
+#.##.##
+#....y#
+###efg#
+
+message Nivel 12 de 22 · El chicle empuja
+
+#######
+#p.#.##
+#.a.n.#
+#..t#.#
+#.....#
+#.#.z.#
+###efg#
+
+message Nivel 13 de 22 · Mitad y mitad
 
 ######
 #...x#
@@ -953,7 +973,28 @@ message Nivel 11 de 15 · Mitad y mitad
 #....#
 ##efg#
 
-message Nivel 12 de 15 · Dos charcos
+message Nivel 14 de 22 · Pareja al charco
+
+#########
+#p##....#
+#..aa...#
+###...#.#
+#...t...#
+#.#..#..#
+#.zz....#
+#####efg#
+
+message Nivel 15 de 22 · Ida y vuelta
+
+#######
+#p#...#
+#.a.#.#
+#.#t#.#
+#...r.#
+#..##x#
+###efg#
+
+message Nivel 16 de 22 · Dos charcos
 
 ########
 #.#.csy#
@@ -962,7 +1003,27 @@ message Nivel 12 de 15 · Dos charcos
 #..n.zp#
 ####efg#
 
-message Nivel 13 de 15 · Sirope de arándanos
+message Nivel 17 de 22 · Cambio de bando
+
+#######
+#p....#
+#.a.t.#
+###...#
+#.r.c##
+#.x.z.#
+###efg#
+
+message Nivel 18 de 22 · Uno sí, uno no
+
+#######
+#p....#
+##a#..#
+##.t..#
+#..#a##
+##x..z#
+###efg#
+
+message Nivel 19 de 22 · Sirope de arándanos
 
 #######
 #..#px#
@@ -972,7 +1033,17 @@ message Nivel 13 de 15 · Sirope de arándanos
 #..#..#
 ###efg#
 
-message Nivel 14 de 15 · Chicle sin teñir
+message Nivel 20 de 22 · Un charco para dos
+
+#######
+#p#...#
+#.a.#.#
+#..s#.#
+##..c.#
+#.y.#y#
+###efg#
+
+message Nivel 21 de 22 · Chicle sin teñir
 
 ########
 #.t.a.z#
@@ -981,7 +1052,7 @@ message Nivel 14 de 15 · Chicle sin teñir
 #xnp...#
 ####efg#
 
-message Nivel 15 de 15 · Arcoíris
+message Nivel 22 de 22 · Arcoíris
 
 #######
 #.t.pz#

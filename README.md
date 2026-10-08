@@ -25,11 +25,18 @@ autónomo en **PuzzleScript Next**, con el estilo «Caramelo».
 8. Ración doble: mínimo 80 pasos
 9. Atasco de golosinas: mínimo 89 pasos
 10. Primer chapuzón: mínimo 20 pasos
-11. Mitad y mitad: mínimo 31 pasos
-12. Dos charcos: mínimo 36 pasos
-13. Sirope de arándanos: mínimo 67 pasos
-14. Chicle sin teñir: mínimo 82 pasos
-15. Arcoíris: mínimo 64 pasos
+11. No pises el charco: mínimo 21 pasos
+12. El chicle empuja: mínimo 27 pasos
+13. Mitad y mitad: mínimo 31 pasos
+14. Pareja al charco: mínimo 32 pasos
+15. Ida y vuelta: mínimo 33 pasos
+16. Dos charcos: mínimo 36 pasos
+17. Cambio de bando: mínimo 50 pasos
+18. Uno sí, uno no: mínimo 58 pasos
+19. Sirope de arándanos: mínimo 67 pasos
+20. Un charco para dos: mínimo 73 pasos
+21. Chicle sin teñir: mínimo 82 pasos
+22. Arcoíris: mínimo 64 pasos
 
 ## Créditos
 - Niveles, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026

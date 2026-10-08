@@ -695,6 +695,9 @@ TintV
 ..0.000....0....
 ................
 
+SonPega
+transparent
+
 =======
 LEGEND
 =======
@@ -739,6 +742,15 @@ Pega = PegaL or PegaR or PegaU or PegaD
 SOUNDS
 =======
 
+sfx1 6045907 (caramelos que se pegan)
+sfx2 27189102 (chocar con la pared)
+sfx3 27189102 (no poder empujar)
+Candy move 48059907
+Player move 11429307
+endlevel 85763108
+restart 65287309
+undo 84906107
+
 ================
 COLLISIONLAYERS
 ================
@@ -755,6 +767,7 @@ TapaCifra
 MovS
 Car1
 Car2
+SonPega
 
 ======
 RULES
@@ -767,6 +780,14 @@ RULES
 [ moving Candy | stationary Candy ] -> [ moving Candy | moving Candy ]
 [ > Candy | Obstaculo ] [ > Player | > Candy ] -> [ Candy | Obstaculo ] [ > Player | Candy ]
 [ > Player | stationary Candy ] [ moving Candy ] -> [ > Player | Candy ] [ Candy ]
+
+( Sonidos, como en el original: caramelos que se pegan, chocar con la pared y no poder empujar. Solo suenan: no )
+( cambian nada del juego, y la marca SonPega desaparece en el mismo turno. )
+[ > Candy | no Candy ] -> [ > Candy | SonPega ]
+[ SonPega | stationary Candy ] -> sfx1
+[ SonPega ] -> [ ]
+[ > Player | Obstaculo ] -> sfx2
+[ > Player | stationary Candy ] -> sfx3
 
 ( Charcos de colorante: el caramelo que cae en uno toma su color; el chicle no se tiñe )
 late [ Verde TintR ] -> [ CR TintR ]

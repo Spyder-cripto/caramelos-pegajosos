@@ -737,6 +737,7 @@ Candy = Rojo or Verde or Azul or Violeta or Chicle
 Digit = D0 or D1 or D2 or D3 or D4 or D5 or D6 or D7 or D8 or D9
 Obstaculo = Wall or Digit
 Pega = PegaL or PegaR or PegaU or PegaD
+Hecho = RD or GD or BD or VD
 
 =======
 SOUNDS
@@ -746,6 +747,8 @@ sfx1 6045907 (caramelos que se pegan)
 sfx2 27189102 (chocar con la pared)
 sfx3 27189102 (no poder empujar)
 Candy move 48059907
+(9-oct, Fali: campanilla cuando un caramelo llega a su zona, al ponerse el ribete dorado; elegida con web/buscar_campanilla.js)
+Hecho create 9766900
 Player move 11429307
 endlevel 85763108
 restart 65287309
